@@ -1,3 +1,41 @@
-.list__element--done {
+.list__paragraph--done {
     text-decoration: line-through;
+}
+
+.list__paragraph {
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+    word-break: break-word;
+}
+
+.list {
+    list-style: none;
+}
+
+.list__element {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    text-align: center;
+    padding: 15px 5px;
+    border-bottom: 2px solid #ccc;
+}
+
+
+.list__button {
+    width: 24px;
+    height: 24px;
+    border: none;
+    color: white;
+}
+
+.list__button--remove {
+    background-color: red;
+    border: none;
+    text-decoration: none;
+}
+
+.list__button--done {
+    background-color: green;
 }

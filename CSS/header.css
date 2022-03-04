@@ -1,0 +1,11 @@
+.header__paragraph {
+    margin-left: 350px;
+    font-size: 300%;
+}
+
+@media (max-width: 1089px) {
+    .header__paragraph {
+        font-size: 250%;
+        margin-left: 15px;
+    }
+}

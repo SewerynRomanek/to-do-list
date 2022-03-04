@@ -1,0 +1,19 @@
+.article {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 350px 0% 350px;
+    box-shadow: 2px 2px 12px #ccc;
+}
+
+.article__header {
+    padding: 2%;
+    border-bottom: 2px solid #ccc;
+    margin: 0%;
+}
+
+@media (max-width: 1089px) {
+    .article {
+        margin: 1% 30px 0% 30px;
+    }
+}
