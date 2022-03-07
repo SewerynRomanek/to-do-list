@@ -11,6 +11,7 @@
 
 .list {
     list-style: none;
+    padding: 0px;
 }
 
 .list__element {
@@ -38,4 +39,20 @@
 
 .list__button--done {
     background-color: green;
+}
+
+.list__button:hover {
+    cursor: pointer;
+}
+
+.list__button--done:hover {
+    background-color: rgb(11, 216, 11);
+}
+
+.list__button--remove:hover {
+    background-color: rgb(194, 47, 47);
+}
+
+.list__button--done:active {
+    background-color: rgb(18, 182, 18);
 }

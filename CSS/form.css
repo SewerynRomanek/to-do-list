@@ -15,6 +15,15 @@
 
 }
 
+.form__button:hover {
+    background-color: rgb(7, 206, 206);
+    cursor: pointer;
+}
+
+.form__button:active {
+    background-color: rgb(4, 167, 167);
+}
+
 .form__input {
     border: 1px solid #ccc;
     margin-right: 20px;
@@ -35,5 +44,6 @@
     .form__input {
         padding: 10px;
         margin-right: 0%;
+        margin-bottom: 10px;
     }
 }
