@@ -11,7 +11,7 @@
 
 .list {
     list-style: none;
-    padding: 0px;
+    padding: 5px;
 }
 
 .list__element {
