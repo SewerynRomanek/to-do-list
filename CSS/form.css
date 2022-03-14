@@ -12,12 +12,14 @@
     padding-bottom: 5%;
     padding-left: -1%;
     padding-right: 1%;
+    transition:transform 1s,color 0.6s;
 
 }
 
 .form__button:hover {
     background-color: rgb(7, 206, 206);
     cursor: pointer;
+    transform: scale(1.15);
 }
 
 .form__button:active {

@@ -7,5 +7,6 @@ https://sewerynromanek.github.io/to-do-list/
 - CSS
 - JavaScript
 - BEM
+- Immutability
 ## Description
 Website created for practise JavaScrript, HTML and CSS. Website allows to create you daily to do list.
